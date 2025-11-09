@@ -4,6 +4,8 @@
 
 A (fictional) bank, TriHeritage Piedmont Bank, is eager for innovation. It is a traditional, regional bank located in Maryland, Virginia, and North Carolina. Renowned for its refined, but down-to-earth services, head leadership has heard a lot about chatbots lately and is looking to launch a test of a brand-new chatbot that can help potential and returning customers with general financial knowledge and information about the bank's services. Our team has signed a contract to develop the initial versions of the chatbot. We are instructed to keep the chatbot in line with what the bank is known for: trust and respect with a touch of Southern elegance.
 
+The Python code used to import LangGraph SDK and LangChain support for the Gemini API, define core instructions, and complete the five demonstrations (single turn chatbot, adding a human node to the single turn chatbot to create a LangGraph loop, adding a "live" information menu to the previous iteration, adding in the ability to handle appointments, and finally implementing a Gradio app demo using Demonstration 2: a human node to create a LangGraph loop) can be found here: [ElodieBot - TriHeritage Piedmont Bank](https://github.com/jasminsc16/ElodieBot-An-Elegant-Financial-Banking-Chatbot-TriHeritage-Piedmont-Bank/blob/main/elodiebot-an-elegant-financial-banking-chatbot.ipynb)
+
 ## Executive Summary
 
 We developed an agentic chatbot assistant (ElodieBot) to assist with providing basic-to-intermediate financial knowledge and information about the services of the fictional TriHeritage Piedmont Bank. (based off services offered by Atlantic Union Bank, an American regional bank headquartered in Richmond, Virginia https://www.atlanticunionbank.com/.) (This project has no affiliation with Atlantic Union Bank and all demo applications are fictional and for demonstrational purposes only.) The chatbot was built using LangGraph and the Gemini API. We also created a Gradio app demo (special thanks to Anshuj for the research & development of this).
@@ -20,18 +22,18 @@ When conceptualizing ElodieBot, I wanted to develop it in a way not meant/sugges
  
 ## Workflow Process
 
-- Brainstorming general project ideas as a team and landing on a finance-themed chatbot
-- Determining that for chatbot development, the “Day 3 - Building an agent with LangGraph” notebook created by MarkMcD/Mark McDonald would be a strong reference
-- Developed initial system instructions
-- Brainstorming ideas for what a “live menu” would like for a financial chatbot
-- Further provided details for initial system instructions to give the chatbot personality
-- Decided on a name for the chatbot (“Elodie”) through etymology of names (Elodie is thought to mean “riches, wealth” using Gothic elements)
-- Finalized the live menu using Atlantic Union Bank information
-- Using Day 3 notebook as a reference, updated tools to be relevant to ElodieBot (instead of “orders” as with BaristaBot, the system will take “appointments”)
-- Cleaned notebook of unnecessary information/test code
-- Researched and developed Gradio app demo to show how the chatbot would operate on a user interface (UI)
-- Clearly documented notebook to highlight the five distinct demonstrations of the chatbot along with the LangGraph-produced graph elements
-- Wrote introduction to the notebook with the clear use case/how GenAI solves the problem
-- Performed careful review of all code and documentation to ensure everything ran smoothly
+- Brainstormed general project ideas as a team and landing on a finance-themed chatbot.
+- Determined that for chatbot development, the “Day 3 - Building an agent with LangGraph” notebook created by MarkMcD/Mark McDonald would be a strong reference.
+- Developed initial system instructions.
+- Brainstormed ideas for what a “live menu” would like for a financial chatbot.
+- Further provided details for initial system instructions to give the chatbot personality.
+- Decided on a name for the chatbot (“Elodie”) through etymology of names (Elodie is thought to mean “riches, wealth” using Gothic elements).
+- Finalized the live menu using Atlantic Union Bank information.
+- Using Day 3 notebook as a reference, updated tools to be relevant to ElodieBot (example: instead of “orders” as with BaristaBot, the system will take “appointments”).
+- Cleaned notebook of unnecessary information/test code.
+- Researched and developed Gradio app demo to show how the chatbot would operate with a clean user interface (UI).
+- Clearly documented notebook to highlight the five distinct demonstrations of the chatbot along with the LangGraph-produced graph elements.
+- Wrote introduction to the notebook with the clear use case/how GenAI solves the problem at hand.
+- Performed careful review of all code and documentation to ensure everything ran smoothly.
  
 *All work was completed using Kaggle and Google Colab, with Discord and Gmail being our main forms of communication.*
